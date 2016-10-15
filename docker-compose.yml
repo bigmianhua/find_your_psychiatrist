@@ -1,0 +1,17 @@
+version: '2'
+services:
+  web:
+    image: project:1.0 
+    links:
+      - db
+    volumes:
+      - ".:/codes"
+    privileged: true
+    ports:
+       - "8000:8000"
+    command: python /codes/manage.py runserver 0.0.0.0:8000
+
+  db:
+    image: postgres:9.4.1
+    ports:
+       - "5432:5432"
