@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from users.models import User
+from find_your_psychiatrist.users.models import User
 
 
 class UserSerializer(serializers.HyperlinkedModelSerializer):

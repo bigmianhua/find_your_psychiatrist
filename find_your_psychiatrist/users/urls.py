@@ -1,5 +1,5 @@
 from django.conf.urls import url
-from users.views import *
+from find_your_psychiatrist.users.views import *
 
 
 urlpatterns = [

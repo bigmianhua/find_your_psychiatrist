@@ -16,5 +16,5 @@ Including another URLconf
 from django.conf.urls import url, include
 
 urlpatterns = [
-    url(r'^', include('users.urls', namespace='users')),
+    url(r'^', include('find_your_psychiatrist.users.urls', namespace='users')),
 ]

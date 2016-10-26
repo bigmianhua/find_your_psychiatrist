@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'users.apps.UsersConfig',
+    'find_your_psychiatrist.users.apps.UsersConfig',
 ]
 
 MIDDLEWARE_CLASSES = [

@@ -4,4 +4,4 @@ from django.apps import AppConfig
 
 
 class UsersConfig(AppConfig):
-    name = 'users'
+    name = 'find_your_psychiatrist.users'
